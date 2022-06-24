@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500;700;900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <!-- Header Logo -->
+    <div class="header__logo">
+      <img src="./images/logo.svg" alt="" class="header__logo--img">
+    </div>
+
+    <!-- Header Nav -->
+    <nav class="header__nav">
+      <ul class="header__nav--container">
+        <li class="header__nav--container__item">
+          Features <i class="fa-solid fa-sort-down"></i>
+          <ul class="header__nav--container__item--subcontainer">
+            <li class="header__nav--container__item--subcontainer__item">
+              <img src="./images/icon-todo.svg" alt="" class="header__nav--container__item--subcontainer__item--img">
+              <span>Todo List</span>
+            </li>
+            <li class="header__nav--container__item--subcontainer__item">
+              <img src="./images/icon-calendar.svg" alt=""
+                class="header__nav--container__item--subcontainer__item--img">
+              <span>Calendar</span>
+            </li>
+            <li class="header__nav--container__item--subcontainer__item">
+              <img src="./images/icon-reminders.svg" alt=""
+                class="header__nav--container__item--subcontainer__item--img">
+              <span>Remainders</span>
+            </li>
+            <li class="header__nav--container__item--subcontainer__item">
+              <img src="./images/icon-planning.svg" alt=""
+                class="header__nav--container__item--subcontainer__item--img">
+              <span>Planning</span>
+            </li>
+          </ul>
+        </li>
+        <li class="header__nav--container__item">
+          Company <i class="fa-solid fa-sort-down"></i>
+          <ul class="header__nav--container__item--subcontainer">
+            <li class="header__nav--container__item--subcontainer__item">
+              <span>History</span>
+            </li>
+            <li class="header__nav--container__item--subcontainer__item">
+              <span>Our Team</span>
+            </li>
+            <li class="header__nav--container__item--subcontainer__item">
+              <span>Blog</span>
+            </li>
+          </ul>
+        </li>
+        <li class="header__nav--container__item">Careers</li>
+        <li class="header__nav--container__item">About</li>
+      </ul>
+    </nav>
+
+    <!-- Header Box -->
+    <div class="header__box">
+      <a href="#" class="header__box--link">Login</a>
+      <a href="#" class="header__box--link">Register</a>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="main__content">
+      <h1 class="main__content--title">Make remote work</h1>
+      <p class="main__content--para">Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.</p>
+      <a href="#" class="main__content--link">Learn More</a>
+      <div class="main__content--clients">
+        <img src="./images/client-audiophile.svg" alt="audiophile" class="main__content--clients__img">
+        <img src="./images/client-databiz.svg" alt="databiz" class="main__content--clients__img">
+        <img src="./images/client-maker.svg" alt="maker" class="main__content--clients__img">
+        <img src="./images/client-meet.svg" alt="meet" class="main__content--clients__img">
+      </div>
+    </div>
+    <div class="main__container-img">
+      <img src="./images/image-hero-desktop.png" alt="Hero" class="main__container-img--img">
+    </div>
+  </section>
+</body>
+
+</html>
