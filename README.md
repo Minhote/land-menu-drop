@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://github.com/Minhote/land-menu-drop]
+- Live Site URL: [https://land-menu-drop.netlify.app/]
 
 ## My process
 
@@ -37,7 +37,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here]
-- Frontend Mentor - [@yourusername]
-- Twitter - [@yourusername]
+- Frontend Mentor - [https://www.frontendmentor.io/profile/Minhote]
+- Twitter - [https://twitter.com/erick_dota]
 
