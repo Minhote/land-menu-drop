@@ -23,12 +23,18 @@
     <div class="header__logo">
       <img src="./images/logo.svg" alt="" class="header__logo--img">
     </div>
-
+    
     <!-- Header Nav -->
     <nav class="header__nav">
+      <!-- Header Hamburger -->
+      <div class="header__nav--hamburger">
+        <div class="header__nav--hamburger__line"></div>
+      </div>
+      <!-- Header Nav Container-->
       <ul class="header__nav--container">
         <li class="header__nav--container__item">
-          Features <i class="fa-solid fa-sort-down"></i>
+          Features 
+          <i class="fa-solid fa-sort-down"></i>
           <ul class="header__nav--container__item--subcontainer">
             <li class="header__nav--container__item--subcontainer__item">
               <img src="./images/icon-todo.svg" alt="" class="header__nav--container__item--subcontainer__item--img">
@@ -55,34 +61,39 @@
           Company <i class="fa-solid fa-sort-down"></i>
           <ul class="header__nav--container__item--subcontainer">
             <li class="header__nav--container__item--subcontainer__item">
-              <span>History</span>
+              <p>History</p>
             </li>
             <li class="header__nav--container__item--subcontainer__item">
-              <span>Our Team</span>
+              <p>Our Team</p>
             </li>
             <li class="header__nav--container__item--subcontainer__item">
-              <span>Blog</span>
+              <p>Blog</p>
             </li>
           </ul>
         </li>
         <li class="header__nav--container__item">Careers</li>
         <li class="header__nav--container__item">About</li>
       </ul>
+      <!-- Header Box -->
+      <div class="header__box">
+        <a href="#" class="header__box--link">Login</a>
+        <a href="#" class="header__box--link">Register</a>
+      </div>
     </nav>
 
-    <!-- Header Box -->
-    <div class="header__box">
-      <a href="#" class="header__box--link">Login</a>
-      <a href="#" class="header__box--link">Register</a>
-    </div>
+    
+
+    
   </header>
 
   <section class="main">
     <div class="main__content">
-      <h1 class="main__content--title">Make remote work</h1>
-      <p class="main__content--para">Get your team in sync, no matter your location. Streamline processes,
+      <div class="main__content--card">
+        <h1 class="main__content--card__title">Make remote work</h1>
+        <p class="main__content--card__para">Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar.</p>
-      <a href="#" class="main__content--link">Learn More</a>
+        <a href="#" class="main__content--card__link">Learn More</a>
+      </div>
       <div class="main__content--clients">
         <img src="./images/client-audiophile.svg" alt="audiophile" class="main__content--clients__img">
         <img src="./images/client-databiz.svg" alt="databiz" class="main__content--clients__img">
@@ -94,6 +105,8 @@
       <img src="./images/image-hero-desktop.png" alt="Hero" class="main__container-img--img">
     </div>
   </section>
+
+  <script src="./header.js"></script>
 </body>
 
 </html>
